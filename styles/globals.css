@@ -1,0 +1,174 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+   scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Base font and link styles */
+
+html,
+body {
+  color: #111111;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: 16px;
+}
+
+h1, h2, h3 {
+  font-family: Rubik, sans-serif;
+}
+
+a {
+  color: blueviolet;
+  text-decoration: none;
+}
+
+.demo {
+  max-width: 800px;
+  margin: 36px auto;
+}
+
+.demo br {
+  display: none;
+}
+
+/* TODO move these to styled component */
+.demo p {
+  margin-block-start: 1rem;
+  margin-block-end: 1rem;
+}
+
+.demo p.d-head {
+  margin-block-end: 0rem;
+}
+
+.demo .statute-title {
+  font-weight: bold;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.demo .statute-body,
+.demo .body-indent {
+  text-indent: 2rem;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.demo .statute-list {
+  margin-left: 5rem;
+  text-indent: -1.6rem;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.demo .statute-list-lvl2 {
+  margin-left: 6.6rem;
+  text-indent: -1.6rem;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.demo .statute-list-lvl3 {
+  margin-left: 7.6rem;
+  text-indent: -1.2rem;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.demo .notes ul {
+  padding-left: 50px;
+}
+
+.demo div.statute span.statute {
+  font-weight: bold;
+}
+
+.demo .elements p,
+.demo .elements ol,
+.demo .related {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.demo .elements ol {
+  list-style-type: none;
+  padding-left: 28px;
+}
+
+.demo .small-caps {
+  font-variant: small-caps;
+}
+
+.demo span.statute-semicondensed {
+  font-weight: bold;
+}

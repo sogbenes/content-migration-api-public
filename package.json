@@ -1,0 +1,22 @@
+{
+  "name": "content-migration-api",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "mammoth": "^1.4.16",
+    "next": "10.0.5",
+    "node-html-parser": "^1.4.9",
+    "office-document-properties": "^1.1.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.16",
+    "babel-loader": "^8.2.2"
+  }
+}

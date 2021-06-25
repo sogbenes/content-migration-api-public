@@ -1,0 +1,71 @@
+/* TODO move these to styled component */
+.demo p {
+  margin-block-start: 1rem;
+  margin-block-end: 1rem;
+}
+
+.demo p.d-head {
+  margin-block-end: 0rem;
+}
+
+.demo .statute-title {
+  font-weight: bold;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.demo .statute-body,
+.demo .body-indent {
+  text-indent: 2rem;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.demo .statute-list {
+  margin-left: 5rem;
+  text-indent: -1.6rem;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.demo .statute-list-lvl2 {
+  margin-left: 6.6rem;
+  text-indent: -1.6rem;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.demo .statute-list-lvl3 {
+  margin-left: 7.6rem;
+  text-indent: -1.2rem;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.demo .notes ul {
+  padding-left: 50px;
+}
+
+.demo div.statute span.statute {
+  font-weight: bold;
+}
+
+.demo .elements p,
+.demo .elements ol,
+.demo .related {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.demo .elements ol {
+  list-style-type: none;
+  padding-left: 28px;
+}
+
+.demo .small-caps {
+  font-variant: small-caps;
+}
+
+.demo span.statute-semicondensed {
+  font-weight: bold;
+}
